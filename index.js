@@ -38,7 +38,7 @@ bot.onText(/\/clear/, msg => {
     bot.sendMessage(chatId, 'Cleared db.');
 
   } else {
-    bot.sendMessage(chatId, `Please contact with admin, @cagataycali`);
+    bot.sendMessage(chatId, `Please contact with admin, @By_Azade`);
   }
 });
 
