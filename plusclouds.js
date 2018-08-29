@@ -63,7 +63,7 @@ bot.onText(/(.+)$/, async(msg, match) => {
                 addParticipant({username: answer.message.chat.username, telegramId: answer.message.chat.id, university: answer.data.trim()});
                 bot.sendMessage(chatId, `You are participant ${answer.data} now.`);
             } else {
-                bot.sendMessage(chatId, "Maybe you can add your university : https://github.com/cagataycali/university-news-notifier")
+                bot.sendMessage(chatId, "Maybe you can add your university : https://github.com/c311at/university-news-notifier/")
             }
         });
     }).catch((err) => {
